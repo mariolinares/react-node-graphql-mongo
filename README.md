@@ -1,105 +1,56 @@
-# REACTJS, NODEJS, GRAPHQL, APOLLO, MONGODB
+# React + Node + MongoDb + GraphQL
 
-_Aplicación FullStack CRM_
+Aplicación CRM basada en Javascript. 
 
-## Comenzando 🚀
+## Instalación
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+La instalación consiste en tres pasos: 
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+1. En primer lugar instalamos [Homebrew](https://brew.sh/index_es).
 
-
-### Pre-requisitos 📋
-
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-### Instalación 🔧
+2. Emita desde el terminal para acceder al Tap de Homebrew oficial de [MongoDB](https://brew.sh/index_es).
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
+```bash
+brew tap mongodb/brew
 ```
 
-_Y repite_
+3. Instalación de [MongoDB](https://brew.sh/index_es).
 
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
+```bash
+brew install mongodb-community@4.0
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
+## Uso
 
-_Explica que verifican estas pruebas y por qué_
-
+1. Clonamos el repositorio de [github](http://github.com).
+```bash
+git clone https://github.com/mariolinares/react-node-graphql-mongo
 ```
-Da un ejemplo
+
+2. Abrimos una ventana de terminal y arrancamos mongoDb
+con el siguiente comnando: 
+```sh
+mongod
 ```
 
-## Deployment 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+3. Abrimos una segunda terminal y accedemos a la carpeta servidor, instalamos los paquetes y arrancamos el servidor
 
-## Construido con 🛠️
+```sh
+cd servidor
+npm install
+npm start
+```
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+4. En una tercera ventana de terminal, accedemos a la carpeta cliente, instalamos y arrancamos el cliente
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+```sh
+cd cliente
+npm install
+npm start
+```
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
-
----
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
